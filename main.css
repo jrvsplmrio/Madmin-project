@@ -1,0 +1,35 @@
+.loader{
+	position: absolute;
+	top: 40%;
+	left: 47%;
+}
+
+.btn-extended {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login {
+	position: absolute;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.invert {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+
+span.lever {
+    background: rgb(56, 56, 90) !important;
+}
+
+span.lever::after {
+    background: blue !important; 
+}
